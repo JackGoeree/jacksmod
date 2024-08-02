@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:sapphire"
+              "name": "jacksmod:sapphire"
             }
           ]
         }

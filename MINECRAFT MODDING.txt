@@ -28,3 +28,12 @@ ADDING DROPS - CUSTOM LOOT TABLES
 - resources.assets.jacksmod.loot_tables.blocks - add block
 - resources/data/Minecraft.tags.blocks.mineable - add correct tool for harvesting
 - resources/data/Minecraft.tags.blocks - add tier of tool
+
+ORE GENERATION
+- jacksmod.worldgen.ModConfiguredFeatures 
+- jacksmod.worldgen.ModPlacedFeatures 
+- jacksmod.worldgen.ModBiomeFeatures 
+- gradle -> forgegadle runs - runData to autogen files
+
+autogen:
+- generated.resources.data.jacksmod json files
