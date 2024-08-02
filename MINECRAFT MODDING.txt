@@ -23,3 +23,8 @@ ADDING A BLOCK
 ADDING A RECIPE
 - data.jacksmod.recipes - add recipe json
 For reference, see External Libraries -> Gradle: net.minecraft:client:extra:1.20.1 -> client-extra.jar.data.minecraft.recipes
+
+ADDING DROPS - CUSTOM LOOT TABLES
+- resources.assets.jacksmod.loot_tables.blocks - add block
+- resources/data/Minecraft.tags.blocks.mineable - add correct tool for harvesting
+- resources/data/Minecraft.tags.blocks - add tier of tool

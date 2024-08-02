@@ -1,5 +1,9 @@
 {
   "block.jacksmod.sapphire_block": "Block of Sapphire",
+  "block.jacksmod.sapphire_ore": "Sapphire Ore",
+  "block.jacksmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.jacksmod.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.jacksmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
 
   "item.jacksmod.sapphire": "Sapphire",
 
