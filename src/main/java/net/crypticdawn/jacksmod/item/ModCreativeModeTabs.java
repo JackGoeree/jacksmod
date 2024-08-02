@@ -1,6 +1,7 @@
 package net.crypticdawn.jacksmod.item;
 
 import net.crypticdawn.jacksmod.JacksMod;
+import net.crypticdawn.jacksmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,7 @@ public class ModCreativeModeTabs {
             .title(Component.translatable("creativetab.jacks_tab"))
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.SAPPHIRE.get());
+                output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
             })
             .build());
 

@@ -1,6 +1,7 @@
 package net.crypticdawn.jacksmod;
 
 import com.mojang.logging.LogUtils;
+import net.crypticdawn.jacksmod.block.ModBlocks;
 import net.crypticdawn.jacksmod.item.ModCreativeModeTabs;
 import net.crypticdawn.jacksmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,7 @@ public class JacksMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -48,9 +50,9 @@ public class JacksMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         // adds sapphire to creative ingredients tab
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        /* if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
-        }
+        }*/
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

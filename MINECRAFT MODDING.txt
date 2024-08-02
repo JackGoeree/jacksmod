@@ -6,7 +6,16 @@ To run Minecraft client:
 
 ADDING AN ITEM
 - ModItems add a RegistryObject
-- JacksMod.addCreative - put it in a creative tab
+- ModCreativeModeTabs - add to JACKS_TAB
 - resources.assets.jacksmod.lang.en_us.json - add localisation
+- resources.assets.jacksmod.models.item - add item
+- resources.assets.jacksmod.textures.item - add png
+
+ADDING A BLOCK
+- ModBlocks add a RegistryObject
+- ModCreativeModeTAbs - add to JACKS_TAB
+- resources.assets.jacksmod.lang.en_us.json - add localisation
+- jacksmod.blockstates - add
+- resources.assets.jacksmod.models.item - add block
 - resources.assets.jacksmod.models.item - add item
 - resources.assets.jacksmod.textures.item - add png
