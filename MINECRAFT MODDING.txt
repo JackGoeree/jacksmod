@@ -3,3 +3,10 @@ MINECRAFT MODDING
 To run Minecraft client:
 - open gradle tab
 - tasks> forgegradle runs > double click runClient
+
+ADDING AN ITEM
+- ModItems add a RegistryObject
+- JacksMod.addCreative - put it in a creative tab
+- resources.assets.jacksmod.lang.en_us.json - add localisation
+- resources.assets.jacksmod.models.item - add item
+- resources.assets.jacksmod.textures.item - add png
