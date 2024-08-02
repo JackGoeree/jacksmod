@@ -19,3 +19,7 @@ ADDING A BLOCK
 - resources.assets.jacksmod.models.item - add block
 - resources.assets.jacksmod.models.item - add item
 - resources.assets.jacksmod.textures.item - add png
+
+ADDING A RECIPE
+- data.jacksmod.recipes - add recipe json
+For reference, see External Libraries -> Gradle: net.minecraft:client:extra:1.20.1 -> client-extra.jar.data.minecraft.recipes
