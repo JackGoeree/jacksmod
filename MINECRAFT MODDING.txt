@@ -1,0 +1,5 @@
+MINECRAFT MODDING
+
+To run Minecraft client:
+- open gradle tab
+- tasks> forgegradle runs > double click runClient
